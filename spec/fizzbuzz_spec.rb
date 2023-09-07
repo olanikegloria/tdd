@@ -33,7 +33,7 @@ RSpec.describe Solver do
   describe 'any other cases' do
     it 'returns fizz' do
       result = @solver.fizzbuzz(8)
-      expect(result).to eq("8")
+      expect(result).to eq('8')
     end
   end
 end
